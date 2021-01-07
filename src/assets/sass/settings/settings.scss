@@ -1,0 +1,11 @@
+/* STYLE DICTIONARY*/
+@import '~demo-design-token/web/colors';
+@import '~demo-design-token/web/typography.scss';
+@import '~demo-design-token/web/grid.scss';
+
+
+/* SASS PROJECT*/
+@import 'colors';
+@import 'grid';
+@import 'typography';
+@import 'breakpoints';

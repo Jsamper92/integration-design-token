@@ -1,0 +1,17 @@
+@each $break, $breakpoint in $responsive {
+  $columns: map-get($breakpoint, "columns");
+  @media only screen and (min-width: map-get($breakpoint,"width")) {
+    @for $i from 1 through $columns {
+      $valor: unquote((100 / $columns * $i) + "%");
+      .col-#{$break}-#{$i} {
+        box-sizing: border-box;
+        padding: 0 map-get($breakpoint, "gutter");
+        flex: 0 0 $valor;
+        min-width: $valor;
+        max-width: $valor;
+      }
+    }
+  }
+}
+
+

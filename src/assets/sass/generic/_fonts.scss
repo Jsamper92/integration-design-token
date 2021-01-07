@@ -1,0 +1,17 @@
+body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+   }
+   
+   
+   @mixin font-face($name,$file,$weight){
+     @font-face {
+       font-family: $name;
+       font-display: auto;
+       src: url($path-font + $file);
+       font-style: normal;
+       font-weight: $weight;
+     }
+   }
+
+   @include font-face($main-font-family,'Roboto-Regular.ttf' , 600 )

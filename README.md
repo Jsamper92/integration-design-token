@@ -1,3 +1,7 @@
+# Integration-design-token
+Este proyecto tiene como objetivo hacer una demo de como implementar un design system consumiendo una libreria externa donde alojamos los design tokens. El ejemplo de la generación de los design token puedes encontrarlo en el siguiente [repositorio](https://github.com/Jsamper92/Demo-DesignToken-figmaAPI)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

@@ -1,0 +1,12 @@
+.btn{
+    height: 35px;
+    border: none;
+    padding: 10px;
+    min-width: 66px;
+    border-radius: 16px;
+    font-size: $typography-font-body-size;
+    &--primary{
+        background-color: $main-color;
+        color: white;
+    }
+}
