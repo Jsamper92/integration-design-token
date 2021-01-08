@@ -3,17 +3,17 @@
 
 /// Mixin que controla el punto de ruptura en versión tablet
 /// @group responsive
-  @mixin tablet {
-    @media only screen and (min-width: map-get($map: $breakpoints, $key: "md")) {
+@mixin tablet {
+  @media only screen and (min-width: generateQuery('md')) {
       @content;
-    }
   }
+}
 /// Mixin que controla el punto de ruptura en versión desktop
 /// @group responsive
   
-  @mixin desktop {
-    @media only screen and (min-width: map-get($map: $breakpoints, $key: "lg")) {
+@mixin desktop {
+  @media only screen and (min-width: generateQuery('lg')) {
       @content;
-    }
   }
+}
   

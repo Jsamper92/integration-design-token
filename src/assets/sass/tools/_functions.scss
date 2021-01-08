@@ -1,0 +1,4 @@
+@function generateQuery($key){
+    $map: map-get($responsive,$key); 
+    @return map-get($map,'width');
+ }

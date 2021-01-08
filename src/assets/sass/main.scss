@@ -1,7 +1,15 @@
-@import 'settings/settings.scss';
-@import 'tools/tools.scss';
-@import 'generic/generic.scss';
-@import 'elements/elements.scss';
-@import 'objects/objects.scss';
-@import 'components/components.scss';
-@import 'utilities/utilities.scss';
+@import "settings/settings.scss";
+@import "tools/tools.scss";
+@import "generic/generic.scss";
+@import "elements/elements.scss";
+@import "objects/objects.scss";
+@import "components/components.scss";
+@import "utilities/utilities.scss";
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: $main-font;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

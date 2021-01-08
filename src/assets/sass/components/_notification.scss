@@ -1,0 +1,37 @@
+@keyframes apperance {
+  from {
+    transform: translate(0, -200px);
+  }
+  10% {
+    transform: translate(0, 20px);
+  }
+  12% {
+    transform: translate(0, 22px);
+  }
+  16% {
+    transform: translate(0, 20px);
+  }
+  80% {
+    transform: translate(0, 20px);
+  }
+  85% {
+    transform: translate(0, 25px);
+  }
+  to {
+    transform: translate(0, -200px);
+  }
+}
+
+.notification {
+  z-index: 1;
+  right: 50%;
+  padding: 18px;
+  display: flex;
+  border-radius: 4px;
+  position: absolute;
+  background-color: white;
+  transform: translateY(-200px);
+  justify-content: space-between;
+  animation: apperance 3s ease-in-out;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.4);
+}
