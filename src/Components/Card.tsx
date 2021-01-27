@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import Button from "./Button";
-import Notification from "./Notification";
 import image from "../assets/images/img_card.svg";
 
 /* export interface ICard {
@@ -28,7 +27,7 @@ const Card = (props: any) => {
           style={{ height: active === key ? "100px" : "0px" }}
           className="card__img"
           src={image}
-          alt="img-card"
+          alt="imagen card"
         />
         <p className="card__content">{card.message}</p>
         <Button

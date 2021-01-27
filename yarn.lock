@@ -4237,10 +4237,10 @@
   "resolved" "https://registry.npmjs.org/delegates/-/delegates-1.0.0.tgz"
   "version" "1.0.0"
 
-"demo-design-token@^1.0.2":
-  "integrity" "sha512-N52rHXM1Vkde1y4pcGMHt53mlLkP3X0OTH7Yo5iVYkJpIEG+BKyXmEf1vG2Mfe9weE+HSfgZJgCCcz1cDcO9oA=="
-  "resolved" "https://registry.npmjs.org/demo-design-token/-/demo-design-token-1.0.2.tgz"
-  "version" "1.0.2"
+"demo-design-token@^1.0.0":
+  "integrity" "sha512-Hk2ZqpCHj5jMOWfSRkTxf90Dkyxe1e6NshDW0shXjItISHvmHLWfIUhvLbGtuZ1hGU2v+qzApE3GBLIZwdC2cA=="
+  "resolved" "https://registry.npmjs.org/demo-design-token/-/demo-design-token-1.0.0.tgz"
+  "version" "1.0.0"
 
 "depd@~1.1.2":
   "integrity" "sha1-m81S4UwJd2PnSbJ0xDRu0uVgtak="
